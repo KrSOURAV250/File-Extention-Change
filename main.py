@@ -1,5 +1,5 @@
 import os
-folder = r'D:\Other Videos'
+folder = r'path here'
 for filename in os.listdir(folder):
     infilename = os.path.join(folder, filename)
     if not os.path.isfile(infilename):
